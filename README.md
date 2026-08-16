@@ -1,29 +1,33 @@
-Сайт для перегляду фільмів. Для його створення було використано API The Movie
-Database (TMDB). В проєкті реалізовано пошук фільмів з можливістю сортування та
-вибором жанру. На головній сторінці відображено списки фільмів. При натисканні на будь-який фільм зі списку користувач потрапляє на детальну сторінку, де він має змогу побачити повну інформацію про фільм та оцінити його. Є також можливість вибрати фільми за жанром, де будуть показані релевантні фільми з можливістю їх сортувати.
-Стек технологій: HTML/CSS, Javascript, Typescript, Next.js.
+A movie browsing website built with the TMDB API. You can search for movies, filter by genre, and sort the results. The main page shows movie lists, and clicking on a film opens its details page where you can see full info and leave a rating.
 
-Як запустити проєкт?
+**Tech Stack:** HTML/CSS, JavaScript, TypeScript, React.js.
 
-**1.** Клонувати репозиторій та перейти в папку проєкту
+### How to Run the Project
+
+**1. Clone the repo and open the folder**
+
 ```
 git clone https://github.com/St1ve42/KinoLand-react.git
 cd KinoLand
 ```
-**2.** Завантажити залежності
+
+**2. Install dependencies**
+
 ```
 npm i
 ```
-**3.** Створити .env файл та заповнити його за зразком файлу .env.example
 
-**4.** Запуск проєкту
+**3. Create a `.env` file based on `.env.example`**
 
-Режим розробки (Development):
+**4. Start the app**
+
+Development mode:
+
 ```
 npm run dev
 ```
 
-Збірка та запуск продакшн-версії (Production):
+Production build and preview:
 
 ```
 npm run build
