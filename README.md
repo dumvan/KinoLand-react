@@ -7,7 +7,7 @@ A movie browsing website built with the TMDB API. You can search for movies, fil
 **1. Clone the repo and open the folder**
 
 ```
-git clone https://github.com/St1ve42/KinoLand-react.git
+git clone https://github.com/dumvan/KinoLand-react.git
 cd KinoLand
 ```
 
